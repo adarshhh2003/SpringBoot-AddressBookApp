@@ -1,0 +1,5 @@
+2025-03-04T01:35:36.413+05:30  INFO 10792 --- [AddressBookApp] [restartedMain] c.b.a.AddressBookAppApplication          : Starting AddressBookAppApplication using Java 23.0.1 with PID 10792 (F:\CG_BridgeLabz_Training\SpringBoot-AddressBookApp\AddressBookApp\target\classes started by Lenovo in F:\CG_BridgeLabz_Training\SpringBoot-AddressBookApp\addressbookapp)
+2025-03-04T01:35:36.416+05:30 DEBUG 10792 --- [AddressBookApp] [restartedMain] c.b.a.AddressBookAppApplication          : Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-04T01:35:36.417+05:30  INFO 10792 --- [AddressBookApp] [restartedMain] c.b.a.AddressBookAppApplication          : The following 1 profile is active: "dev"
+2025-03-04T01:35:38.343+05:30  INFO 10792 --- [AddressBookApp] [restartedMain] c.b.a.AddressBookAppApplication          : Started AddressBookAppApplication in 2.597 seconds (process running for 3.24)
+2025-03-04T01:36:16.317+05:30  WARN 10792 --- [AddressBookApp] [http-nio-8080-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
