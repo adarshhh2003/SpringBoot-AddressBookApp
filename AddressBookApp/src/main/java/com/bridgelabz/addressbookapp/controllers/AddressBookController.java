@@ -1,44 +1,60 @@
 package com.bridgelabz.addressbookapp.controllers;
 
+import com.bridgelabz.addressbookapp.dto.AddressBookDTO;
+import com.bridgelabz.addressbookapp.model.AddressBook;
 import com.bridgelabz.addressbookapp.services.AddressBookServiceImpl;
+import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
+import java.util.Optional;
 
 @RestController
 @RequestMapping("/addresses")
 public class AddressBookController {
-
-    private AddressBookServiceImpl addressBookService;
-
     @Autowired
-    public AddressBookController(AddressBookServiceImpl addressBookService) {
-        this.addressBookService = addressBookService;
+    private AddressBookServiceImpl addressService;
+    // Get all contacts
+    @GetMapping("/all")
+    public ResponseEntity<List<AddressBook>> getAllContacts() {
+        return ResponseEntity.ok(addressService.getAllContacts());
     }
 
-    @RequestMapping(value = {"", "/", "/get"})
-    public ResponseEntity<String> getAddressBookData() {
-        return new ResponseEntity<>("Get call success", HttpStatus.OK);
+    // Create a new contact
+    @PostMapping("/add")
+    public ResponseEntity<AddressBook> addContact(@Valid @RequestBody AddressBookDTO contactDTO) {
+        return ResponseEntity.ok(addressService.addContact(contactDTO));
     }
 
-    @GetMapping("/get/{id}")
-    public ResponseEntity<String> getAddressById(@PathVariable("id") Long id) {
-        return new ResponseEntity<>("Get call success for id", HttpStatus.OK);
+
+    // Get contact by ID
+    @GetMapping("/{id}")
+    public ResponseEntity<?> getContactById(@PathVariable Long id) {
+        Optional<AddressBook> contact = addressService.getContactById(id);
+        return contact.map(ResponseEntity::ok).orElseGet(() -> ResponseEntity.notFound().build());
     }
 
-    @PostMapping
-    public ResponseEntity<String> addAddress(@RequestParam Long id, @RequestParam String address) {
-        return new ResponseEntity<>("Post call success", HttpStatus.OK);
+    // Update contact by ID
+    @PutMapping("/update/{id}")
+    public ResponseEntity<?> updateContact(@PathVariable Long id, @Valid @RequestBody AddressBookDTO contactDTO) {
+        try {
+            AddressBook updatedContact = addressService.updateContact(id, contactDTO);
+            return ResponseEntity.ok(updatedContact);
+        } catch (RuntimeException e) {
+            return ResponseEntity.notFound().build();
+        }
     }
 
-    @PutMapping("/{id}")
-    public ResponseEntity<String> updateAddress(@PathVariable("id") Long id, @RequestParam String newAddress) {
-        return new ResponseEntity<>("Put call success", HttpStatus.OK);
-    }
-
-    @DeleteMapping("/{id}")
-    public ResponseEntity<String> deleteAddress(@PathVariable("id") Long id) {
-        return new ResponseEntity<>("Delete call success", HttpStatus.OK);
+    // Delete contact by ID
+    @DeleteMapping("/delete/{id}")
+    public ResponseEntity<String> deleteContact(@PathVariable Long id) {
+        boolean isDeleted = addressService.deleteContact(id);
+        if (isDeleted) {
+            return ResponseEntity.ok("Contact deleted successfully.");
+        } else {
+            return ResponseEntity.status(404).body("Contact not found.");
+        }
     }
 }
