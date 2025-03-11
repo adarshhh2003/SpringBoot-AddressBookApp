@@ -29,7 +29,7 @@ public class AddressBook {
     private String state;
 
     @Column(nullable = false)
-    private String zip;
+    private String zipCode;
 
     @Column(nullable = false, unique = true)
     private String phoneNumber;
@@ -83,11 +83,11 @@ public class AddressBook {
     }
 
     public String getZip() {
-        return zip;
+        return zipCode;
     }
 
     public void setZip(String zip) {
-        this.zip = zip;
+        this.zipCode = zip;
     }
 
 }

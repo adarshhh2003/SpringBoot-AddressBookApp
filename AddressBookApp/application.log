@@ -1,13 +1,79 @@
-2025-03-10T01:49:21.539+05:30  INFO 2800 --- [AddressBookApp] [main] c.b.a.AddressBookAppApplication          : Starting AddressBookAppApplication using Java 23.0.1 with PID 2800 (F:\CG_BridgeLabz_Training\SpringBoot-AddressBookApp\AddressBookApp\target\classes started by Lenovo in F:\CG_BridgeLabz_Training\SpringBoot-AddressBookApp\addressbookapp)
-2025-03-10T01:49:21.555+05:30 DEBUG 2800 --- [AddressBookApp] [main] c.b.a.AddressBookAppApplication          : Running with Spring Boot v3.4.3, Spring v6.2.3
-2025-03-10T01:49:21.556+05:30  INFO 2800 --- [AddressBookApp] [main] c.b.a.AddressBookAppApplication          : The following 1 profile is active: "dev"
-2025-03-10T01:49:27.249+05:30  WARN 2800 --- [AddressBookApp] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-03-10T01:49:27.657+05:30  WARN 2800 --- [AddressBookApp] [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
-2025-03-10T01:49:27.839+05:30  INFO 2800 --- [AddressBookApp] [main] c.b.a.AddressBookAppApplication          : Started AddressBookAppApplication in 6.994 seconds (process running for 7.68)
-2025-03-10T01:52:33.825+05:30 ERROR 2800 --- [AddressBookApp] [http-nio-8080-exec-3] o.h.engine.jdbc.spi.SqlExceptionHelper   : Duplicate entry '9837834858' for key 'new_address_book.UKcu35yxncno4tpc0no46q8lojf'
-2025-03-10T01:52:33.846+05:30 ERROR 2800 --- [AddressBookApp] [http-nio-8080-exec-3] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.dao.DataIntegrityViolationException: could not execute statement [Duplicate entry '9837834858' for key 'new_address_book.UKcu35yxncno4tpc0no46q8lojf'] [insert into new_address_book (address,city,full_name,phone_number,state,zip) values (?,?,?,?,?,?)]; SQL [insert into new_address_book (address,city,full_name,phone_number,state,zip) values (?,?,?,?,?,?)]; constraint [new_address_book.UKcu35yxncno4tpc0no46q8lojf]] with root cause
+2025-03-11T02:57:02.563+05:30  INFO 4724 --- [AddressBookApp] [main] c.b.a.AddressBookAppApplication          : Starting AddressBookAppApplication using Java 23.0.1 with PID 4724 (F:\CG_BridgeLabz_Training\SpringBoot-AddressBookApp\AddressBookApp\target\classes started by Lenovo in F:\CG_BridgeLabz_Training\SpringBoot-AddressBookApp\addressbookapp)
+2025-03-11T02:57:02.573+05:30 DEBUG 4724 --- [AddressBookApp] [main] c.b.a.AddressBookAppApplication          : Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-11T02:57:02.573+05:30  INFO 4724 --- [AddressBookApp] [main] c.b.a.AddressBookAppApplication          : The following 1 profile is active: "dev"
+2025-03-11T02:57:07.654+05:30  WARN 4724 --- [AddressBookApp] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-11T02:57:07.953+05:30  WARN 4724 --- [AddressBookApp] [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2025-03-11T02:57:08.126+05:30  INFO 4724 --- [AddressBookApp] [main] c.b.a.AddressBookAppApplication          : Started AddressBookAppApplication in 6.261 seconds (process running for 7.087)
+2025-03-11T03:01:48.396+05:30  INFO 22104 --- [AddressBookApp] [main] c.b.a.AddressBookAppApplication          : Starting AddressBookAppApplication using Java 23.0.1 with PID 22104 (F:\CG_BridgeLabz_Training\SpringBoot-AddressBookApp\AddressBookApp\target\classes started by Lenovo in F:\CG_BridgeLabz_Training\SpringBoot-AddressBookApp\addressbookapp)
+2025-03-11T03:01:48.396+05:30 DEBUG 22104 --- [AddressBookApp] [main] c.b.a.AddressBookAppApplication          : Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-11T03:01:48.405+05:30  INFO 22104 --- [AddressBookApp] [main] c.b.a.AddressBookAppApplication          : The following 1 profile is active: "dev"
+2025-03-11T03:01:53.304+05:30  WARN 22104 --- [AddressBookApp] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-11T03:01:53.639+05:30  WARN 22104 --- [AddressBookApp] [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2025-03-11T03:01:54.115+05:30  INFO 22104 --- [AddressBookApp] [main] c.b.a.AddressBookAppApplication          : Started AddressBookAppApplication in 6.342 seconds (process running for 6.967)
+2025-03-11T03:03:18.545+05:30  INFO 16732 --- [AddressBookApp] [main] c.b.a.AddressBookAppApplication          : Starting AddressBookAppApplication using Java 23.0.1 with PID 16732 (F:\CG_BridgeLabz_Training\SpringBoot-AddressBookApp\AddressBookApp\target\classes started by Lenovo in F:\CG_BridgeLabz_Training\SpringBoot-AddressBookApp\addressbookapp)
+2025-03-11T03:03:18.545+05:30 DEBUG 16732 --- [AddressBookApp] [main] c.b.a.AddressBookAppApplication          : Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-11T03:03:18.562+05:30  INFO 16732 --- [AddressBookApp] [main] c.b.a.AddressBookAppApplication          : The following 1 profile is active: "dev"
+2025-03-11T03:03:22.668+05:30  WARN 16732 --- [AddressBookApp] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-11T03:03:23.045+05:30  WARN 16732 --- [AddressBookApp] [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2025-03-11T03:03:23.454+05:30  INFO 16732 --- [AddressBookApp] [main] c.b.a.AddressBookAppApplication          : Started AddressBookAppApplication in 5.517 seconds (process running for 6.042)
+2025-03-11T22:38:08.389+05:30  INFO 15428 --- [AddressBookApp] [main] c.b.a.AddressBookAppApplication          : Starting AddressBookAppApplication using Java 23.0.1 with PID 15428 (F:\CG_BridgeLabz_Training\SpringBoot-AddressBookApp\AddressBookApp\target\classes started by Lenovo in F:\CG_BridgeLabz_Training\SpringBoot-AddressBookApp\addressbookapp)
+2025-03-11T22:38:08.390+05:30 DEBUG 15428 --- [AddressBookApp] [main] c.b.a.AddressBookAppApplication          : Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-11T22:38:08.390+05:30  INFO 15428 --- [AddressBookApp] [main] c.b.a.AddressBookAppApplication          : The following 1 profile is active: "dev"
+2025-03-11T22:38:12.951+05:30  WARN 15428 --- [AddressBookApp] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-11T22:38:13.281+05:30  WARN 15428 --- [AddressBookApp] [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2025-03-11T22:38:13.658+05:30  INFO 15428 --- [AddressBookApp] [main] c.b.a.AddressBookAppApplication          : Started AddressBookAppApplication in 5.997 seconds (process running for 6.756)
+2025-03-11T22:52:13.568+05:30  INFO 20788 --- [AddressBookApp] [main] c.b.a.AddressBookAppApplication          : Starting AddressBookAppApplication using Java 23.0.1 with PID 20788 (F:\CG_BridgeLabz_Training\SpringBoot-AddressBookApp\AddressBookApp\target\classes started by Lenovo in F:\CG_BridgeLabz_Training\SpringBoot-AddressBookApp\addressbookapp)
+2025-03-11T22:52:13.576+05:30 DEBUG 20788 --- [AddressBookApp] [main] c.b.a.AddressBookAppApplication          : Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-11T22:52:13.576+05:30  INFO 20788 --- [AddressBookApp] [main] c.b.a.AddressBookAppApplication          : The following 1 profile is active: "dev"
+2025-03-11T22:52:18.519+05:30  WARN 20788 --- [AddressBookApp] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-11T22:52:18.919+05:30  WARN 20788 --- [AddressBookApp] [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2025-03-11T22:52:19.391+05:30  INFO 20788 --- [AddressBookApp] [main] c.b.a.AddressBookAppApplication          : Started AddressBookAppApplication in 6.534 seconds (process running for 7.171)
+2025-03-11T23:05:57.193+05:30  INFO 9644 --- [AddressBookApp] [main] c.b.a.AddressBookAppApplication          : Starting AddressBookAppApplication using Java 23.0.1 with PID 9644 (F:\CG_BridgeLabz_Training\SpringBoot-AddressBookApp\AddressBookApp\target\classes started by Lenovo in F:\CG_BridgeLabz_Training\SpringBoot-AddressBookApp\addressbookapp)
+2025-03-11T23:05:57.193+05:30 DEBUG 9644 --- [AddressBookApp] [main] c.b.a.AddressBookAppApplication          : Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-11T23:05:57.193+05:30  INFO 9644 --- [AddressBookApp] [main] c.b.a.AddressBookAppApplication          : The following 1 profile is active: "dev"
+2025-03-11T23:06:02.137+05:30  WARN 9644 --- [AddressBookApp] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-11T23:06:02.524+05:30  WARN 9644 --- [AddressBookApp] [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2025-03-11T23:06:03.054+05:30  INFO 9644 --- [AddressBookApp] [main] c.b.a.AddressBookAppApplication          : Started AddressBookAppApplication in 6.559 seconds (process running for 7.115)
+2025-03-11T23:06:24.144+05:30  INFO 1040 --- [AddressBookApp] [main] c.b.a.AddressBookAppApplication          : Starting AddressBookAppApplication using Java 23.0.1 with PID 1040 (F:\CG_BridgeLabz_Training\SpringBoot-AddressBookApp\AddressBookApp\target\classes started by Lenovo in F:\CG_BridgeLabz_Training\SpringBoot-AddressBookApp\addressbookapp)
+2025-03-11T23:06:24.147+05:30 DEBUG 1040 --- [AddressBookApp] [main] c.b.a.AddressBookAppApplication          : Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-11T23:06:24.147+05:30  INFO 1040 --- [AddressBookApp] [main] c.b.a.AddressBookAppApplication          : The following 1 profile is active: "dev"
+2025-03-11T23:06:27.991+05:30  WARN 1040 --- [AddressBookApp] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-11T23:06:28.317+05:30  WARN 1040 --- [AddressBookApp] [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2025-03-11T23:06:28.755+05:30  INFO 1040 --- [AddressBookApp] [main] c.b.a.AddressBookAppApplication          : Started AddressBookAppApplication in 5.204 seconds (process running for 5.714)
+2025-03-11T23:12:24.743+05:30  INFO 9736 --- [AddressBookApp] [main] c.b.a.AddressBookAppApplication          : Starting AddressBookAppApplication using Java 23.0.1 with PID 9736 (F:\CG_BridgeLabz_Training\SpringBoot-AddressBookApp\AddressBookApp\target\classes started by Lenovo in F:\CG_BridgeLabz_Training\SpringBoot-AddressBookApp\addressbookapp)
+2025-03-11T23:12:24.758+05:30 DEBUG 9736 --- [AddressBookApp] [main] c.b.a.AddressBookAppApplication          : Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-11T23:12:24.758+05:30  INFO 9736 --- [AddressBookApp] [main] c.b.a.AddressBookAppApplication          : The following 1 profile is active: "dev"
+2025-03-11T23:12:28.596+05:30  WARN 9736 --- [AddressBookApp] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-11T23:12:28.941+05:30  WARN 9736 --- [AddressBookApp] [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2025-03-11T23:12:29.350+05:30  INFO 9736 --- [AddressBookApp] [main] c.b.a.AddressBookAppApplication          : Started AddressBookAppApplication in 5.168 seconds (process running for 5.695)
+2025-03-11T23:13:14.525+05:30  INFO 12436 --- [AddressBookApp] [main] c.b.a.AddressBookAppApplication          : Starting AddressBookAppApplication using Java 23.0.1 with PID 12436 (F:\CG_BridgeLabz_Training\SpringBoot-AddressBookApp\AddressBookApp\target\classes started by Lenovo in F:\CG_BridgeLabz_Training\SpringBoot-AddressBookApp\addressbookapp)
+2025-03-11T23:13:14.525+05:30 DEBUG 12436 --- [AddressBookApp] [main] c.b.a.AddressBookAppApplication          : Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-11T23:13:14.525+05:30  INFO 12436 --- [AddressBookApp] [main] c.b.a.AddressBookAppApplication          : The following 1 profile is active: "dev"
+2025-03-11T23:13:18.505+05:30  WARN 12436 --- [AddressBookApp] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-11T23:13:18.852+05:30  WARN 12436 --- [AddressBookApp] [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2025-03-11T23:13:19.313+05:30  INFO 12436 --- [AddressBookApp] [main] c.b.a.AddressBookAppApplication          : Started AddressBookAppApplication in 5.401 seconds (process running for 5.897)
+2025-03-11T23:17:27.255+05:30  INFO 20236 --- [AddressBookApp] [main] c.b.a.AddressBookAppApplication          : Starting AddressBookAppApplication using Java 23.0.1 with PID 20236 (F:\CG_BridgeLabz_Training\SpringBoot-AddressBookApp\AddressBookApp\target\classes started by Lenovo in F:\CG_BridgeLabz_Training\SpringBoot-AddressBookApp\addressbookapp)
+2025-03-11T23:17:27.255+05:30 DEBUG 20236 --- [AddressBookApp] [main] c.b.a.AddressBookAppApplication          : Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-11T23:17:27.255+05:30  INFO 20236 --- [AddressBookApp] [main] c.b.a.AddressBookAppApplication          : The following 1 profile is active: "dev"
+2025-03-11T23:17:31.430+05:30  WARN 20236 --- [AddressBookApp] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-11T23:17:31.873+05:30  WARN 20236 --- [AddressBookApp] [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2025-03-11T23:17:32.373+05:30  INFO 20236 --- [AddressBookApp] [main] c.b.a.AddressBookAppApplication          : Started AddressBookAppApplication in 5.71 seconds (process running for 6.285)
+2025-03-11T23:17:59.191+05:30  INFO 11360 --- [AddressBookApp] [main] c.b.a.AddressBookAppApplication          : Starting AddressBookAppApplication using Java 23.0.1 with PID 11360 (F:\CG_BridgeLabz_Training\SpringBoot-AddressBookApp\AddressBookApp\target\classes started by Lenovo in F:\CG_BridgeLabz_Training\SpringBoot-AddressBookApp\addressbookapp)
+2025-03-11T23:17:59.207+05:30 DEBUG 11360 --- [AddressBookApp] [main] c.b.a.AddressBookAppApplication          : Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-11T23:17:59.207+05:30  INFO 11360 --- [AddressBookApp] [main] c.b.a.AddressBookAppApplication          : The following 1 profile is active: "dev"
+2025-03-11T23:18:03.983+05:30  WARN 11360 --- [AddressBookApp] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-11T23:18:04.364+05:30  WARN 11360 --- [AddressBookApp] [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2025-03-11T23:18:04.619+05:30  INFO 11360 --- [AddressBookApp] [main] c.b.a.AddressBookAppApplication          : Started AddressBookAppApplication in 6.037 seconds (process running for 6.592)
+2025-03-11T23:18:55.027+05:30  INFO 5840 --- [AddressBookApp] [main] c.b.a.AddressBookAppApplication          : Starting AddressBookAppApplication using Java 23.0.1 with PID 5840 (F:\CG_BridgeLabz_Training\SpringBoot-AddressBookApp\AddressBookApp\target\classes started by Lenovo in F:\CG_BridgeLabz_Training\SpringBoot-AddressBookApp\addressbookapp)
+2025-03-11T23:18:55.037+05:30 DEBUG 5840 --- [AddressBookApp] [main] c.b.a.AddressBookAppApplication          : Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-11T23:18:55.037+05:30  INFO 5840 --- [AddressBookApp] [main] c.b.a.AddressBookAppApplication          : The following 1 profile is active: "dev"
+2025-03-11T23:18:59.434+05:30  WARN 5840 --- [AddressBookApp] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-11T23:18:59.744+05:30  WARN 5840 --- [AddressBookApp] [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2025-03-11T23:18:59.916+05:30  INFO 5840 --- [AddressBookApp] [main] c.b.a.AddressBookAppApplication          : Started AddressBookAppApplication in 5.568 seconds (process running for 6.168)
+2025-03-11T23:19:06.830+05:30 ERROR 5840 --- [AddressBookApp] [http-nio-8080-exec-1] o.h.engine.jdbc.spi.SqlExceptionHelper   : Column 'zip_code' cannot be null
+2025-03-11T23:19:06.854+05:30 ERROR 5840 --- [AddressBookApp] [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.dao.DataIntegrityViolationException: could not execute statement [Column 'zip_code' cannot be null] [insert into new_address_book (address,city,full_name,phone_number,state,zip_code) values (?,?,?,?,?,?)]; SQL [insert into new_address_book (address,city,full_name,phone_number,state,zip_code) values (?,?,?,?,?,?)]; constraint [null]] with root cause
 
-java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '9837834858' for key 'new_address_book.UKcu35yxncno4tpc0no46q8lojf'
+java.sql.SQLIntegrityConstraintViolationException: Column 'zip_code' cannot be null
 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:109) ~[mysql-connector-j-9.1.0.jar:9.1.0]
 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114) ~[mysql-connector-j-9.1.0.jar:9.1.0]
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:988) ~[mysql-connector-j-9.1.0.jar:9.1.0]
@@ -74,7 +140,7 @@ java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '9837834858' 
 	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223) ~[spring-aop-6.2.3.jar:6.2.3]
 	at jdk.proxy2/jdk.proxy2.$Proxy116.save(Unknown Source) ~[na:na]
 	at com.bridgelabz.addressbookapp.services.AddressBookServiceImpl.addContact(AddressBookServiceImpl.java:28) ~[classes/:na]
-	at com.bridgelabz.addressbookapp.controllers.AddressBookController.addContact(AddressBookController.java:28) ~[classes/:na]
+	at com.bridgelabz.addressbookapp.controllers.AddressBookController.addContact(AddressBookController.java:29) ~[classes/:na]
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:257) ~[spring-web-6.2.3.jar:6.2.3]
@@ -124,10 +190,10 @@ java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '9837834858' 
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
 	at java.base/java.lang.Thread.run(Thread.java:1575) ~[na:na]
 
-2025-03-10T01:52:42.821+05:30 ERROR 2800 --- [AddressBookApp] [http-nio-8080-exec-4] o.h.engine.jdbc.spi.SqlExceptionHelper   : Duplicate entry '9837834858' for key 'new_address_book.UKcu35yxncno4tpc0no46q8lojf'
-2025-03-10T01:52:42.825+05:30 ERROR 2800 --- [AddressBookApp] [http-nio-8080-exec-4] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.dao.DataIntegrityViolationException: could not execute statement [Duplicate entry '9837834858' for key 'new_address_book.UKcu35yxncno4tpc0no46q8lojf'] [insert into new_address_book (address,city,full_name,phone_number,state,zip) values (?,?,?,?,?,?)]; SQL [insert into new_address_book (address,city,full_name,phone_number,state,zip) values (?,?,?,?,?,?)]; constraint [new_address_book.UKcu35yxncno4tpc0no46q8lojf]] with root cause
+2025-03-11T23:19:09.609+05:30 ERROR 5840 --- [AddressBookApp] [http-nio-8080-exec-4] o.h.engine.jdbc.spi.SqlExceptionHelper   : Column 'zip_code' cannot be null
+2025-03-11T23:19:09.610+05:30 ERROR 5840 --- [AddressBookApp] [http-nio-8080-exec-4] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.dao.DataIntegrityViolationException: could not execute statement [Column 'zip_code' cannot be null] [insert into new_address_book (address,city,full_name,phone_number,state,zip_code) values (?,?,?,?,?,?)]; SQL [insert into new_address_book (address,city,full_name,phone_number,state,zip_code) values (?,?,?,?,?,?)]; constraint [null]] with root cause
 
-java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '9837834858' for key 'new_address_book.UKcu35yxncno4tpc0no46q8lojf'
+java.sql.SQLIntegrityConstraintViolationException: Column 'zip_code' cannot be null
 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:109) ~[mysql-connector-j-9.1.0.jar:9.1.0]
 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114) ~[mysql-connector-j-9.1.0.jar:9.1.0]
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:988) ~[mysql-connector-j-9.1.0.jar:9.1.0]
@@ -194,7 +260,7 @@ java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '9837834858' 
 	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223) ~[spring-aop-6.2.3.jar:6.2.3]
 	at jdk.proxy2/jdk.proxy2.$Proxy116.save(Unknown Source) ~[na:na]
 	at com.bridgelabz.addressbookapp.services.AddressBookServiceImpl.addContact(AddressBookServiceImpl.java:28) ~[classes/:na]
-	at com.bridgelabz.addressbookapp.controllers.AddressBookController.addContact(AddressBookController.java:28) ~[classes/:na]
+	at com.bridgelabz.addressbookapp.controllers.AddressBookController.addContact(AddressBookController.java:29) ~[classes/:na]
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:257) ~[spring-web-6.2.3.jar:6.2.3]
@@ -244,10 +310,10 @@ java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '9837834858' 
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
 	at java.base/java.lang.Thread.run(Thread.java:1575) ~[na:na]
 
-2025-03-10T01:55:31.445+05:30 ERROR 2800 --- [AddressBookApp] [http-nio-8080-exec-7] o.h.engine.jdbc.spi.SqlExceptionHelper   : Duplicate entry '9837834858' for key 'new_address_book.UKcu35yxncno4tpc0no46q8lojf'
-2025-03-10T01:55:31.455+05:30 ERROR 2800 --- [AddressBookApp] [http-nio-8080-exec-7] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.dao.DataIntegrityViolationException: could not execute statement [Duplicate entry '9837834858' for key 'new_address_book.UKcu35yxncno4tpc0no46q8lojf'] [insert into new_address_book (address,city,full_name,phone_number,state,zip) values (?,?,?,?,?,?)]; SQL [insert into new_address_book (address,city,full_name,phone_number,state,zip) values (?,?,?,?,?,?)]; constraint [new_address_book.UKcu35yxncno4tpc0no46q8lojf]] with root cause
+2025-03-11T23:19:11.059+05:30 ERROR 5840 --- [AddressBookApp] [http-nio-8080-exec-5] o.h.engine.jdbc.spi.SqlExceptionHelper   : Column 'zip_code' cannot be null
+2025-03-11T23:19:11.059+05:30 ERROR 5840 --- [AddressBookApp] [http-nio-8080-exec-5] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.dao.DataIntegrityViolationException: could not execute statement [Column 'zip_code' cannot be null] [insert into new_address_book (address,city,full_name,phone_number,state,zip_code) values (?,?,?,?,?,?)]; SQL [insert into new_address_book (address,city,full_name,phone_number,state,zip_code) values (?,?,?,?,?,?)]; constraint [null]] with root cause
 
-java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '9837834858' for key 'new_address_book.UKcu35yxncno4tpc0no46q8lojf'
+java.sql.SQLIntegrityConstraintViolationException: Column 'zip_code' cannot be null
 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:109) ~[mysql-connector-j-9.1.0.jar:9.1.0]
 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114) ~[mysql-connector-j-9.1.0.jar:9.1.0]
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:988) ~[mysql-connector-j-9.1.0.jar:9.1.0]
@@ -314,7 +380,7 @@ java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '9837834858' 
 	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223) ~[spring-aop-6.2.3.jar:6.2.3]
 	at jdk.proxy2/jdk.proxy2.$Proxy116.save(Unknown Source) ~[na:na]
 	at com.bridgelabz.addressbookapp.services.AddressBookServiceImpl.addContact(AddressBookServiceImpl.java:28) ~[classes/:na]
-	at com.bridgelabz.addressbookapp.controllers.AddressBookController.addContact(AddressBookController.java:28) ~[classes/:na]
+	at com.bridgelabz.addressbookapp.controllers.AddressBookController.addContact(AddressBookController.java:29) ~[classes/:na]
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:257) ~[spring-web-6.2.3.jar:6.2.3]
@@ -364,243 +430,15 @@ java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '9837834858' 
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
 	at java.base/java.lang.Thread.run(Thread.java:1575) ~[na:na]
 
-2025-03-10T01:55:45.957+05:30 ERROR 2800 --- [AddressBookApp] [http-nio-8080-exec-10] o.h.engine.jdbc.spi.SqlExceptionHelper   : Duplicate entry '9837834758' for key 'new_address_book.UKcu35yxncno4tpc0no46q8lojf'
-2025-03-10T01:55:45.964+05:30 ERROR 2800 --- [AddressBookApp] [http-nio-8080-exec-10] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.dao.DataIntegrityViolationException: could not execute statement [Duplicate entry '9837834758' for key 'new_address_book.UKcu35yxncno4tpc0no46q8lojf'] [insert into new_address_book (address,city,full_name,phone_number,state,zip) values (?,?,?,?,?,?)]; SQL [insert into new_address_book (address,city,full_name,phone_number,state,zip) values (?,?,?,?,?,?)]; constraint [new_address_book.UKcu35yxncno4tpc0no46q8lojf]] with root cause
-
-java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '9837834758' for key 'new_address_book.UKcu35yxncno4tpc0no46q8lojf'
-	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:109) ~[mysql-connector-j-9.1.0.jar:9.1.0]
-	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114) ~[mysql-connector-j-9.1.0.jar:9.1.0]
-	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:988) ~[mysql-connector-j-9.1.0.jar:9.1.0]
-	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1166) ~[mysql-connector-j-9.1.0.jar:9.1.0]
-	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1101) ~[mysql-connector-j-9.1.0.jar:9.1.0]
-	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1467) ~[mysql-connector-j-9.1.0.jar:9.1.0]
-	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1084) ~[mysql-connector-j-9.1.0.jar:9.1.0]
-	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61) ~[HikariCP-5.1.0.jar:na]
-	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java) ~[HikariCP-5.1.0.jar:na]
-	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:194) ~[hibernate-core-6.6.8.Final.jar:6.6.8.Final]
-	at org.hibernate.id.insert.GetGeneratedKeysDelegate.performMutation(GetGeneratedKeysDelegate.java:116) ~[hibernate-core-6.6.8.Final.jar:6.6.8.Final]
-	at org.hibernate.engine.jdbc.mutation.internal.MutationExecutorSingleNonBatched.performNonBatchedOperations(MutationExecutorSingleNonBatched.java:47) ~[hibernate-core-6.6.8.Final.jar:6.6.8.Final]
-	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.execute(AbstractMutationExecutor.java:55) ~[hibernate-core-6.6.8.Final.jar:6.6.8.Final]
-	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.doStaticInserts(InsertCoordinatorStandard.java:194) ~[hibernate-core-6.6.8.Final.jar:6.6.8.Final]
-	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.coordinateInsert(InsertCoordinatorStandard.java:132) ~[hibernate-core-6.6.8.Final.jar:6.6.8.Final]
-	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.insert(InsertCoordinatorStandard.java:95) ~[hibernate-core-6.6.8.Final.jar:6.6.8.Final]
-	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:85) ~[hibernate-core-6.6.8.Final.jar:6.6.8.Final]
-	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:682) ~[hibernate-core-6.6.8.Final.jar:6.6.8.Final]
-	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:293) ~[hibernate-core-6.6.8.Final.jar:6.6.8.Final]
-	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:274) ~[hibernate-core-6.6.8.Final.jar:6.6.8.Final]
-	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:324) ~[hibernate-core-6.6.8.Final.jar:6.6.8.Final]
-	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:393) ~[hibernate-core-6.6.8.Final.jar:6.6.8.Final]
-	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:307) ~[hibernate-core-6.6.8.Final.jar:6.6.8.Final]
-	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:223) ~[hibernate-core-6.6.8.Final.jar:6.6.8.Final]
-	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:136) ~[hibernate-core-6.6.8.Final.jar:6.6.8.Final]
-	at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:177) ~[hibernate-core-6.6.8.Final.jar:6.6.8.Final]
-	at org.hibernate.event.internal.DefaultPersistEventListener.persist(DefaultPersistEventListener.java:95) ~[hibernate-core-6.6.8.Final.jar:6.6.8.Final]
-	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:79) ~[hibernate-core-6.6.8.Final.jar:6.6.8.Final]
-	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:55) ~[hibernate-core-6.6.8.Final.jar:6.6.8.Final]
-	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:127) ~[hibernate-core-6.6.8.Final.jar:6.6.8.Final]
-	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:761) ~[hibernate-core-6.6.8.Final.jar:6.6.8.Final]
-	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:745) ~[hibernate-core-6.6.8.Final.jar:6.6.8.Final]
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
-	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:364) ~[spring-orm-6.2.3.jar:6.2.3]
-	at jdk.proxy2/jdk.proxy2.$Proxy113.persist(Unknown Source) ~[na:na]
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
-	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:320) ~[spring-orm-6.2.3.jar:6.2.3]
-	at jdk.proxy2/jdk.proxy2.$Proxy113.persist(Unknown Source) ~[na:na]
-	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:636) ~[spring-data-jpa-3.4.3.jar:3.4.3]
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
-	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359) ~[spring-aop-6.2.3.jar:6.2.3]
-	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:277) ~[spring-data-commons-3.4.3.jar:3.4.3]
-	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:170) ~[spring-data-commons-3.4.3.jar:3.4.3]
-	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:158) ~[spring-data-commons-3.4.3.jar:3.4.3]
-	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:515) ~[spring-data-commons-3.4.3.jar:3.4.3]
-	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:284) ~[spring-data-commons-3.4.3.jar:3.4.3]
-	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:752) ~[spring-data-commons-3.4.3.jar:3.4.3]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.3.jar:6.2.3]
-	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:174) ~[spring-data-commons-3.4.3.jar:3.4.3]
-	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:149) ~[spring-data-commons-3.4.3.jar:3.4.3]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.3.jar:6.2.3]
-	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:69) ~[spring-data-commons-3.4.3.jar:3.4.3]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.3.jar:6.2.3]
-	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:380) ~[spring-tx-6.2.3.jar:6.2.3]
-	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-6.2.3.jar:6.2.3]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.3.jar:6.2.3]
-	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:138) ~[spring-tx-6.2.3.jar:6.2.3]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.3.jar:6.2.3]
-	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:165) ~[spring-data-jpa-3.4.3.jar:3.4.3]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.3.jar:6.2.3]
-	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223) ~[spring-aop-6.2.3.jar:6.2.3]
-	at jdk.proxy2/jdk.proxy2.$Proxy116.save(Unknown Source) ~[na:na]
-	at com.bridgelabz.addressbookapp.services.AddressBookServiceImpl.addContact(AddressBookServiceImpl.java:28) ~[classes/:na]
-	at com.bridgelabz.addressbookapp.controllers.AddressBookController.addContact(AddressBookController.java:28) ~[classes/:na]
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:257) ~[spring-web-6.2.3.jar:6.2.3]
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190) ~[spring-web-6.2.3.jar:6.2.3]
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.3.jar:6.2.3]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986) ~[spring-webmvc-6.2.3.jar:6.2.3]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891) ~[spring-webmvc-6.2.3.jar:6.2.3]
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.3.jar:6.2.3]
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088) ~[spring-webmvc-6.2.3.jar:6.2.3]
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978) ~[spring-webmvc-6.2.3.jar:6.2.3]
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.3.jar:6.2.3]
-	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.2.3.jar:6.2.3]
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.36.jar:6.0]
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.3.jar:6.2.3]
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.36.jar:6.0]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.36.jar:10.1.36]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.3.jar:6.2.3]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.3.jar:6.2.3]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.3.jar:6.2.3]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.3.jar:6.2.3]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.3.jar:6.2.3]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.3.jar:6.2.3]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at java.base/java.lang.Thread.run(Thread.java:1575) ~[na:na]
-
-2025-03-10T01:55:59.090+05:30 ERROR 2800 --- [AddressBookApp] [http-nio-8080-exec-3] o.h.engine.jdbc.spi.SqlExceptionHelper   : Duplicate entry '9837864758' for key 'new_address_book.UKcu35yxncno4tpc0no46q8lojf'
-2025-03-10T01:55:59.095+05:30 ERROR 2800 --- [AddressBookApp] [http-nio-8080-exec-3] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.dao.DataIntegrityViolationException: could not execute statement [Duplicate entry '9837864758' for key 'new_address_book.UKcu35yxncno4tpc0no46q8lojf'] [insert into new_address_book (address,city,full_name,phone_number,state,zip) values (?,?,?,?,?,?)]; SQL [insert into new_address_book (address,city,full_name,phone_number,state,zip) values (?,?,?,?,?,?)]; constraint [new_address_book.UKcu35yxncno4tpc0no46q8lojf]] with root cause
-
-java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '9837864758' for key 'new_address_book.UKcu35yxncno4tpc0no46q8lojf'
-	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:109) ~[mysql-connector-j-9.1.0.jar:9.1.0]
-	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114) ~[mysql-connector-j-9.1.0.jar:9.1.0]
-	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:988) ~[mysql-connector-j-9.1.0.jar:9.1.0]
-	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1166) ~[mysql-connector-j-9.1.0.jar:9.1.0]
-	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1101) ~[mysql-connector-j-9.1.0.jar:9.1.0]
-	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1467) ~[mysql-connector-j-9.1.0.jar:9.1.0]
-	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1084) ~[mysql-connector-j-9.1.0.jar:9.1.0]
-	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61) ~[HikariCP-5.1.0.jar:na]
-	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java) ~[HikariCP-5.1.0.jar:na]
-	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:194) ~[hibernate-core-6.6.8.Final.jar:6.6.8.Final]
-	at org.hibernate.id.insert.GetGeneratedKeysDelegate.performMutation(GetGeneratedKeysDelegate.java:116) ~[hibernate-core-6.6.8.Final.jar:6.6.8.Final]
-	at org.hibernate.engine.jdbc.mutation.internal.MutationExecutorSingleNonBatched.performNonBatchedOperations(MutationExecutorSingleNonBatched.java:47) ~[hibernate-core-6.6.8.Final.jar:6.6.8.Final]
-	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.execute(AbstractMutationExecutor.java:55) ~[hibernate-core-6.6.8.Final.jar:6.6.8.Final]
-	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.doStaticInserts(InsertCoordinatorStandard.java:194) ~[hibernate-core-6.6.8.Final.jar:6.6.8.Final]
-	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.coordinateInsert(InsertCoordinatorStandard.java:132) ~[hibernate-core-6.6.8.Final.jar:6.6.8.Final]
-	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.insert(InsertCoordinatorStandard.java:95) ~[hibernate-core-6.6.8.Final.jar:6.6.8.Final]
-	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:85) ~[hibernate-core-6.6.8.Final.jar:6.6.8.Final]
-	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:682) ~[hibernate-core-6.6.8.Final.jar:6.6.8.Final]
-	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:293) ~[hibernate-core-6.6.8.Final.jar:6.6.8.Final]
-	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:274) ~[hibernate-core-6.6.8.Final.jar:6.6.8.Final]
-	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:324) ~[hibernate-core-6.6.8.Final.jar:6.6.8.Final]
-	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:393) ~[hibernate-core-6.6.8.Final.jar:6.6.8.Final]
-	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:307) ~[hibernate-core-6.6.8.Final.jar:6.6.8.Final]
-	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:223) ~[hibernate-core-6.6.8.Final.jar:6.6.8.Final]
-	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:136) ~[hibernate-core-6.6.8.Final.jar:6.6.8.Final]
-	at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:177) ~[hibernate-core-6.6.8.Final.jar:6.6.8.Final]
-	at org.hibernate.event.internal.DefaultPersistEventListener.persist(DefaultPersistEventListener.java:95) ~[hibernate-core-6.6.8.Final.jar:6.6.8.Final]
-	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:79) ~[hibernate-core-6.6.8.Final.jar:6.6.8.Final]
-	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:55) ~[hibernate-core-6.6.8.Final.jar:6.6.8.Final]
-	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:127) ~[hibernate-core-6.6.8.Final.jar:6.6.8.Final]
-	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:761) ~[hibernate-core-6.6.8.Final.jar:6.6.8.Final]
-	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:745) ~[hibernate-core-6.6.8.Final.jar:6.6.8.Final]
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
-	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:364) ~[spring-orm-6.2.3.jar:6.2.3]
-	at jdk.proxy2/jdk.proxy2.$Proxy113.persist(Unknown Source) ~[na:na]
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
-	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:320) ~[spring-orm-6.2.3.jar:6.2.3]
-	at jdk.proxy2/jdk.proxy2.$Proxy113.persist(Unknown Source) ~[na:na]
-	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:636) ~[spring-data-jpa-3.4.3.jar:3.4.3]
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
-	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359) ~[spring-aop-6.2.3.jar:6.2.3]
-	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:277) ~[spring-data-commons-3.4.3.jar:3.4.3]
-	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:170) ~[spring-data-commons-3.4.3.jar:3.4.3]
-	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:158) ~[spring-data-commons-3.4.3.jar:3.4.3]
-	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:515) ~[spring-data-commons-3.4.3.jar:3.4.3]
-	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:284) ~[spring-data-commons-3.4.3.jar:3.4.3]
-	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:752) ~[spring-data-commons-3.4.3.jar:3.4.3]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.3.jar:6.2.3]
-	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:174) ~[spring-data-commons-3.4.3.jar:3.4.3]
-	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:149) ~[spring-data-commons-3.4.3.jar:3.4.3]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.3.jar:6.2.3]
-	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:69) ~[spring-data-commons-3.4.3.jar:3.4.3]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.3.jar:6.2.3]
-	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:380) ~[spring-tx-6.2.3.jar:6.2.3]
-	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-6.2.3.jar:6.2.3]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.3.jar:6.2.3]
-	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:138) ~[spring-tx-6.2.3.jar:6.2.3]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.3.jar:6.2.3]
-	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:165) ~[spring-data-jpa-3.4.3.jar:3.4.3]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.3.jar:6.2.3]
-	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223) ~[spring-aop-6.2.3.jar:6.2.3]
-	at jdk.proxy2/jdk.proxy2.$Proxy116.save(Unknown Source) ~[na:na]
-	at com.bridgelabz.addressbookapp.services.AddressBookServiceImpl.addContact(AddressBookServiceImpl.java:28) ~[classes/:na]
-	at com.bridgelabz.addressbookapp.controllers.AddressBookController.addContact(AddressBookController.java:28) ~[classes/:na]
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:257) ~[spring-web-6.2.3.jar:6.2.3]
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190) ~[spring-web-6.2.3.jar:6.2.3]
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.3.jar:6.2.3]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986) ~[spring-webmvc-6.2.3.jar:6.2.3]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891) ~[spring-webmvc-6.2.3.jar:6.2.3]
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.3.jar:6.2.3]
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088) ~[spring-webmvc-6.2.3.jar:6.2.3]
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978) ~[spring-webmvc-6.2.3.jar:6.2.3]
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.3.jar:6.2.3]
-	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.2.3.jar:6.2.3]
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.36.jar:6.0]
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.3.jar:6.2.3]
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.36.jar:6.0]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.36.jar:10.1.36]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.3.jar:6.2.3]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.3.jar:6.2.3]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.3.jar:6.2.3]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.3.jar:6.2.3]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.3.jar:6.2.3]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.3.jar:6.2.3]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at java.base/java.lang.Thread.run(Thread.java:1575) ~[na:na]
-
+2025-03-11T23:21:56.847+05:30  INFO 16304 --- [AddressBookApp] [main] c.b.a.AddressBookAppApplication          : Starting AddressBookAppApplication using Java 23.0.1 with PID 16304 (F:\CG_BridgeLabz_Training\SpringBoot-AddressBookApp\AddressBookApp\target\classes started by Lenovo in F:\CG_BridgeLabz_Training\SpringBoot-AddressBookApp\addressbookapp)
+2025-03-11T23:21:56.860+05:30 DEBUG 16304 --- [AddressBookApp] [main] c.b.a.AddressBookAppApplication          : Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-11T23:21:56.860+05:30  INFO 16304 --- [AddressBookApp] [main] c.b.a.AddressBookAppApplication          : The following 1 profile is active: "dev"
+2025-03-11T23:22:00.852+05:30  WARN 16304 --- [AddressBookApp] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-11T23:22:01.133+05:30  WARN 16304 --- [AddressBookApp] [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2025-03-11T23:22:01.496+05:30  INFO 16304 --- [AddressBookApp] [main] c.b.a.AddressBookAppApplication          : Started AddressBookAppApplication in 5.287 seconds (process running for 5.783)
+2025-03-11T23:23:08.989+05:30  INFO 21376 --- [AddressBookApp] [main] c.b.a.AddressBookAppApplication          : Starting AddressBookAppApplication using Java 23.0.1 with PID 21376 (F:\CG_BridgeLabz_Training\SpringBoot-AddressBookApp\AddressBookApp\target\classes started by Lenovo in F:\CG_BridgeLabz_Training\SpringBoot-AddressBookApp\addressbookapp)
+2025-03-11T23:23:08.989+05:30 DEBUG 21376 --- [AddressBookApp] [main] c.b.a.AddressBookAppApplication          : Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-11T23:23:08.989+05:30  INFO 21376 --- [AddressBookApp] [main] c.b.a.AddressBookAppApplication          : The following 1 profile is active: "dev"
+2025-03-11T23:23:12.991+05:30  WARN 21376 --- [AddressBookApp] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-11T23:23:13.337+05:30  WARN 21376 --- [AddressBookApp] [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2025-03-11T23:23:13.765+05:30  INFO 21376 --- [AddressBookApp] [main] c.b.a.AddressBookAppApplication          : Started AddressBookAppApplication in 5.34 seconds (process running for 5.85)

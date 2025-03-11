@@ -23,7 +23,7 @@ public class AddressBookDTO {
 
     @NotEmpty(message = "ZIP code cannot be empty")
     @Pattern(regexp = "^[0-9]{5,6}$", message = "ZIP code must be 5 or 6 digits")
-    private String zip;
+    private String zipCode;
 
     @NotEmpty(message = "Phone number cannot be empty")
     @Pattern(regexp = "^[0-9]{10}$", message = "Phone number must be 10 digits")
@@ -70,11 +70,11 @@ public class AddressBookDTO {
     }
 
     public String getZip() {
-        return zip;
+        return zipCode;
     }
 
     public void setZip(String zip) {
-        this.zip = zip;
+        this.zipCode = zip;
     }
 
 }

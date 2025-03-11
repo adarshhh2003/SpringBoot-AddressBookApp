@@ -12,12 +12,13 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
+@CrossOrigin(origins = "http://localhost:4200")
 @RequestMapping("/addresses")
 public class AddressBookController {
     @Autowired
     private AddressBookServiceImpl addressService;
     // Get all contacts
-    @GetMapping("/all")
+    @GetMapping
     public ResponseEntity<List<AddressBook>> getAllContacts() {
         return ResponseEntity.ok(addressService.getAllContacts());
     }
@@ -37,7 +38,7 @@ public class AddressBookController {
     }
 
     // Update contact by ID
-    @PutMapping("/update/{id}")
+    @PutMapping("/{id}")
     public ResponseEntity<?> updateContact(@PathVariable Long id, @Valid @RequestBody AddressBookDTO contactDTO) {
         try {
             AddressBook updatedContact = addressService.updateContact(id, contactDTO);
@@ -48,7 +49,7 @@ public class AddressBookController {
     }
 
     // Delete contact by ID
-    @DeleteMapping("/delete/{id}")
+    @DeleteMapping("/{id}")
     public ResponseEntity<String> deleteContact(@PathVariable Long id) {
         boolean isDeleted = addressService.deleteContact(id);
         if (isDeleted) {
